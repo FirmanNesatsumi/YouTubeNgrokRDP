@@ -13,11 +13,11 @@ jobs:
           Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
           Invoke-WebRequest https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-611.exe -OutFile winrar.exe
           Invoke-WebRequest https://bits.avcdn.net/productfamily_CCLEANER/insttype_FREE/platform_WIN_PIR/installertype_ONLINE/build_RELEASE -OutFile ccsetup602.exe        
-          Invoke-WebRequest https://raw.githubusercontent.com/FirmanKurnialloh/YouTubeNgrokRDP/main/resources/start.bat -OutFile start.bat
-          Invoke-WebRequest https://raw.githubusercontent.com/FirmanKurnialloh/YouTubeNgrokRDP/main/resources/loop.bat -OutFile loop.bat
-          Invoke-WebRequest https://raw.githubusercontent.com/FirmanKurnialloh/YouTubeNgrokRDP/main/resources/loop.ps1 -OutFile loop.ps1
-          Invoke-WebRequest https://raw.githubusercontent.com/FirmanKurnialloh/YouTubeNgrokRDP/main/resources/10ChromeShortcuts.zip -OutFile 10ChromeShortcuts.zip
-          Invoke-WebRequest https://raw.githubusercontent.com/FirmanKurnialloh/YouTubeNgrokRDP/main/resources/1ChromeProfiles.zip -OutFile 1ChromeProfiles.zip
+          Invoke-WebRequest https://raw.githubusercontent.com/FirmanNesatsumi/YouTubeNgrokRDP/main/resources/start.bat -OutFile start.bat
+          Invoke-WebRequest https://raw.githubusercontent.com/FirmanNesatsumi/YouTubeNgrokRDP/main/resources/loop.bat -OutFile loop.bat
+          Invoke-WebRequest https://raw.githubusercontent.com/FirmanNesatsumi/YouTubeNgrokRDP/main/resources/loop.ps1 -OutFile loop.ps1
+          Invoke-WebRequest https://raw.githubusercontent.com/FirmanNesatsumi/YouTubeNgrokRDP/main/resources/10ChromeShortcuts.zip -OutFile 10ChromeShortcuts.zip
+          Invoke-WebRequest https://raw.githubusercontent.com/FirmanNesatsumi/YouTubeNgrokRDP/main/resources/1ChromeProfiles.zip -OutFile 1ChromeProfiles.zip
 
       - name: Extracting Ngrok Files...
         run: Expand-Archive ngrok.zip
